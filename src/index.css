@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -10,4 +12,22 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.ant-layout-sider-children .logo {
+  text-align: center;
+  height: 32px;
+  margin: 16px;
+}
+
+.ant-layout-sider-children .logo h1 {
+  color: white;
+}
+
+header.ant-layout-header h1 {
+  padding-left: 1.5rem;
 }
